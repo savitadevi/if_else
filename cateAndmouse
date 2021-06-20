@@ -1,0 +1,17 @@
+cat_a=int(input("enter cat_a number.."))
+cat_b=int(input("enter cat_b number.."))
+mouse=int(input("enter mouse_c number.."))
+if cat_b==0:
+    print("cat_a")
+a=cat_a-mouse
+b=cat_b-mouse
+if a<0:
+     a=a*-1
+if b<0:
+     b=b*-1
+if a==b:
+    print("mouse_c")
+elif a>b:
+    print("cat_b")
+else:
+    print("cat_a")
